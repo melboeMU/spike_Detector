@@ -1,0 +1,33 @@
+recording: sub-025 acq-A run-01   duration 1916 s   workers 3
+
+=== PARCEL arm: 12 nodes (11 with events), 55 history columns, 98,100 bins ===
+targets fitted: 11 of 12  (skipped 1 with zero events)
+glm_input_parcel_node001.mat                   events=   22  BIC idx=  2/100  23.9s
+glm_input_parcel_node002.mat                   events=   84  BIC idx=  4/100  16.7s
+glm_input_parcel_node003.mat                   events=  143  BIC idx=  5/100  15.8s
+glm_input_parcel_node004.mat                   events=   29  BIC idx=  1/100  13.4s  <-- ENDPOINT
+glm_input_parcel_node005.mat                   events=    9  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node007.mat                   events=    1  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node008.mat                   events=    2  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node009.mat                   events=    1  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node010.mat                   events=   37  BIC idx=  7/100  21.7s
+glm_input_parcel_node011.mat                   events=  260  BIC idx= 16/100  5.9s
+glm_input_parcel_node012.mat                   events=   69  BIC idx=  1/100  14.4s  <-- ENDPOINT
+R fitting: 46s
+
+target                 events     idx   self in-edges
+fusiform-rh                22   2/100   0.00        1
+entorhinal-rh              84   4/100   3.41        1
+unknown-rh                143   5/100   3.81        0
+parahippocampal-rh         29   1/100   0.00        0  intercept-only
+lingual-rh                 37   7/100   6.24        0
+superiorfrontal-rh        260  16/100   3.29        0
+rostralmiddlefrontal-rh     69   1/100   0.00        0  intercept-only
+inferiortemporal-rh         9  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+lateraloccipital-rh         1  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+pericalcarine-rh            2  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+isthmuscingulate-rh         1  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+
+edges selected: 2   intercept-only targets: 2 of 7   fits failed: 4   skipped (zero events): 1
+   inferiortemporal-rh -> fusiform-rh         5.450
+   unknown-rh         -> entorhinal-rh       2.146

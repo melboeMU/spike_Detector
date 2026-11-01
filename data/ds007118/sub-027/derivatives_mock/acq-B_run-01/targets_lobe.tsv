@@ -1,0 +1,5 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+temporal	899	fitted	28	3.216	0
+frontal	23	intercept-only	1	0.000	0
+occipital/temporal	0	no events			0
+occipital	0	no events			0

@@ -1,0 +1,7 @@
+source	target	weight_L2
+temporalpole-lh	inferiortemporal-lh	4.0436
+fusiform-lh	entorhinal-lh	2.6252
+temporalpole-lh	middletemporal-lh	2.5394
+inferiortemporal-lh	temporalpole-lh	2.2258
+inferiortemporal-lh	entorhinal-lh	0.0003
+inferiortemporal-lh	fusiform-lh	0.0002

@@ -1,0 +1,17 @@
+source	target	weight_L2
+fusiform-lh	middletemporal-lh	4.4756
+paracentral-lh	precentral-lh	3.6486
+entorhinal-lh	temporalpole-lh	3.5507
+superiorfrontal-lh	posteriorcingulate-lh	3.4293
+precentral-lh	postcentral-lh	3.2296
+precentral-lh	supramarginal-lh	2.9752
+caudalmiddlefrontal-lh	supramarginal-lh	2.9338
+fusiform-lh	entorhinal-lh	2.8414
+caudalmiddlefrontal-lh	superiorfrontal-lh	2.8159
+temporalpole-lh	superiortemporal-lh	2.5566
+entorhinal-lh	middletemporal-lh	2.5315
+temporalpole-lh	entorhinal-lh	2.3542
+caudalmiddlefrontal-lh	precentral-lh	0.1863
+superiorfrontal-lh	caudalmiddlefrontal-lh	0.1579
+inferiortemporal-lh	middletemporal-lh	0.0041
+rostralmiddlefrontal-lh	supramarginal-lh	0.0014

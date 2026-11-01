@@ -1,0 +1,15 @@
+recording: sub-027 acq-B run-01   atlas: Desikan-Killiany (fsaverage aparc)
+check 1 - contact to nearest cortical surface vertex: median 0.0 mm, 90th percentile 0.0 mm, max 0.0 mm
+check 2 - atlas lobe matches the dataset's lobe label: 35/35 contacts (100%)
+
+22 channels -> 8 parcels:
+  lateraloccipital-lh                5 channels
+  fusiform-lh                        4 channels
+  inferiortemporal-lh                3 channels
+  lateralorbitofrontal-lh            3 channels
+  entorhinal-lh                      2 channels
+  temporalpole-lh                    2 channels
+  middletemporal-lh                  2 channels
+  lingual-lh                         1 channels
+
+written ..\..\data\ds007118\sub-027\derivatives_mock\acq-B_run-01\parcels.tsv

@@ -1,0 +1,7 @@
+{
+  "IntendedFor": "sub-025_ses-01_task-sleep_acq-A_run-01_electrodes.tsv",
+  "iEEGCoordinateSystem": "fsaverage",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Coordinates of electrode contacts in FreeSurfer average brain (fsaverage) space.",
+  "iEEGCoordinateProcessingDescription": "Electrode coordinates were derived from FreeSurfer recon-all and projected to fsaverage template."
+}

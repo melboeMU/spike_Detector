@@ -1,0 +1,301 @@
+{
+ "recording": "sub-025_ses-01_task-sleep_acq-A_run-01",
+ "edf": "sub-025_ses-01_task-sleep_acq-A_run-01_ieeg.edf",
+ "duration_s": 1916.0,
+ "fs": 1000.0,
+ "n_samples": 1916000,
+ "git_commit": "f144ac6",
+ "montage": {
+  "rule": "consecutive contacts on the same lead, physically adjacent",
+  "max_spacing_factor": 1.5,
+  "median_spacing_mm": 10.826309678761486,
+  "n_pairs": 64,
+  "artifact_contacts_excluded": [
+   "A10",
+   "A17",
+   "A20",
+   "A21",
+   "A22",
+   "A24",
+   "B1",
+   "B9"
+  ],
+  "contacts_without_coordinates": [],
+  "skipped_jumps": [
+   [
+    "A4",
+    "A5",
+    22.7
+   ],
+   [
+    "A5",
+    "A6",
+    18.4
+   ],
+   [
+    "A10",
+    "A11",
+    24.3
+   ],
+   [
+    "A16",
+    "A17",
+    37.3
+   ],
+   [
+    "A19",
+    "A20",
+    29.9
+   ],
+   [
+    "A21",
+    "A22",
+    19.5
+   ],
+   [
+    "A24",
+    "A25",
+    38.6
+   ],
+   [
+    "A32",
+    "A33",
+    30.2
+   ],
+   [
+    "A34",
+    "A35",
+    22.2
+   ],
+   [
+    "A38",
+    "A39",
+    31.2
+   ],
+   [
+    "A40",
+    "A41",
+    60.7
+   ],
+   [
+    "A42",
+    "A43",
+    26.4
+   ],
+   [
+    "A46",
+    "A47",
+    26.6
+   ],
+   [
+    "B5",
+    "B6",
+    16.3
+   ],
+   [
+    "B8",
+    "B9",
+    36.7
+   ],
+   [
+    "B14",
+    "B15",
+    19.3
+   ],
+   [
+    "B16",
+    "B17",
+    111.2
+   ],
+   [
+    "B17",
+    "B18",
+    18.6
+   ],
+   [
+    "B19",
+    "B20",
+    32.7
+   ],
+   [
+    "B23",
+    "B24",
+    52.5
+   ],
+   [
+    "B24",
+    "B25",
+    99.9
+   ],
+   [
+    "B28",
+    "B29",
+    32.0
+   ],
+   [
+    "B29",
+    "B30",
+    17.0
+   ],
+   [
+    "B32",
+    "B33",
+    51.9
+   ],
+   [
+    "B34",
+    "B35",
+    23.9
+   ],
+   [
+    "B36",
+    "B37",
+    52.0
+   ],
+   [
+    "B38",
+    "B39",
+    19.3
+   ],
+   [
+    "B40",
+    "B41",
+    64.7
+   ],
+   [
+    "B45",
+    "B46",
+    40.1
+   ],
+   [
+    "B47",
+    "B48",
+    31.4
+   ],
+   [
+    "B48",
+    "B49",
+    55.8
+   ],
+   [
+    "B53",
+    "B54",
+    41.4
+   ],
+   [
+    "B55",
+    "B56",
+    40.0
+   ],
+   [
+    "B56",
+    "B57",
+    71.6
+   ],
+   [
+    "B58",
+    "B59",
+    17.2
+   ],
+   [
+    "B59",
+    "B60",
+    21.3
+   ],
+   [
+    "B60",
+    "B61",
+    35.2
+   ],
+   [
+    "B62",
+    "B63",
+    18.6
+   ],
+   [
+    "B63",
+    "B64",
+    30.3
+   ]
+  ]
+ },
+ "spikedet": {
+  "fs": 1000.0,
+  "notch_freqs": [
+   60.0,
+   120.0,
+   180.0
+  ],
+  "notch_q": 30.0,
+  "highpass": 1.0,
+  "wide_band": [
+   1.0,
+   80.0
+  ],
+  "hf_band": [
+   20.0,
+   70.0
+  ],
+  "lf_band": [
+   2.0,
+   8.0
+  ],
+  "filter_order": 4,
+  "scales_ms": [
+   10.0,
+   15.0,
+   22.0,
+   32.0,
+   46.0,
+   66.0
+  ],
+  "thresh_mad": 6.0,
+  "baseline_block_s": 60.0,
+  "max_amp_mad": 60.0,
+  "refractory_ms": 40.0,
+  "peak_refine_ms": 12.0,
+  "use_cycle_gate": true,
+  "cycle_win_ms": 150.0,
+  "cycle_rel_thresh": 0.5,
+  "max_cycles": 3.0,
+  "use_band_gate": true,
+  "band_edges": [
+   [
+    8.0,
+    16.0
+   ],
+   [
+    16.0,
+    32.0
+   ],
+   [
+    32.0,
+    64.0
+   ],
+   [
+    64.0,
+    100.0
+   ]
+  ],
+  "band_win_ms": 200.0,
+  "band_z": 2.0,
+  "min_bands": 3,
+  "n_baseline_windows": 500,
+  "use_lf_gate": true,
+  "lf_z": 2.0,
+  "lf_win_ms": 100.0,
+  "use_width_gate": true,
+  "min_halfwidth_ms": 10.0,
+  "max_halfwidth_ms": 80.0,
+  "use_coincidence_gate": true,
+  "coincidence_ms": 20.0,
+  "max_coincident_frac": 0.5,
+  "channel_block": 16,
+  "time_block_s": 300.0,
+  "overlap_s": 5.0,
+  "dtype": "float32",
+  "random_seed": 0
+ },
+ "n_candidates": 11953,
+ "n_accepted": 692
+}

@@ -1,0 +1,11 @@
+{
+  "TaskName": "sleep",
+  "SamplingFrequency": 1000,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "Manufacturer": "n/a",
+  "ManufacturersModelName": "n/a",
+  "TaskDescription": "sleep",
+  "Instructions": "n/a",
+  "iEEGReference": "n/a"
+}

@@ -1,0 +1,24 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+posteriorcingulate-lh	17	fitted	2	0.000	1
+paracentral-lh	22	intercept-only	1	0.000	0
+superiorfrontal-lh	110	fitted	3	0.000	1
+fusiform-lh	98	intercept-only	1	0.000	0
+entorhinal-lh	375	fitted	7	1.613	2
+temporalpole-lh	136	fitted	7	0.000	1
+inferiortemporal-lh	24	intercept-only	1	0.000	0
+middletemporal-lh	151	fitted	12	0.000	3
+lateraloccipital-lh	181	fitted	6	3.690	0
+parstriangularis-lh	15	intercept-only	1	0.000	0
+superiortemporal-lh	116	fitted	2	0.000	1
+inferiorparietal-lh	18	intercept-only	1	0.000	0
+postcentral-lh	77	fitted	2	0.000	1
+precentral-lh	65	fitted	2	0.000	2
+supramarginal-lh	138	fitted	8	0.000	3
+parsopercularis-lh	22	intercept-only	1	0.000	0
+caudalmiddlefrontal-lh	281	fitted	5	2.992	1
+isthmuscingulate-lh	11	fit failed			0
+lingual-lh	5	fit failed			0
+lateralorbitofrontal-lh	5	fit failed			0
+rostralmiddlefrontal-lh	11	fit failed			0
+cuneus-lh	0	no events			0
+precuneus-lh	0	no events			0

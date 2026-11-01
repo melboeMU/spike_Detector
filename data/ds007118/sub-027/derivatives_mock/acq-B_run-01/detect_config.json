@@ -1,0 +1,138 @@
+{
+ "recording": "sub-027_ses-01_task-sleep_acq-B_run-01",
+ "edf": "sub-027_ses-01_task-sleep_acq-B_run-01_ieeg.edf",
+ "duration_s": 2047.0,
+ "fs": 1000.0,
+ "n_samples": 2047000,
+ "git_commit": "f144ac6",
+ "montage": {
+  "rule": "consecutive contacts on the same lead, physically adjacent",
+  "max_spacing_factor": 1.5,
+  "median_spacing_mm": 11.036401143288723,
+  "n_pairs": 22,
+  "artifact_contacts_excluded": [
+   "B16",
+   "B3",
+   "B7"
+  ],
+  "contacts_without_coordinates": [
+   "B16"
+  ],
+  "skipped_jumps": [
+   [
+    "B10",
+    "B11",
+    30.0
+   ],
+   [
+    "B20",
+    "B21",
+    16.8
+   ],
+   [
+    "B22",
+    "B23",
+    22.2
+   ],
+   [
+    "B24",
+    "B25",
+    95.6
+   ],
+   [
+    "B30",
+    "B31",
+    24.1
+   ],
+   [
+    "B31",
+    "B32",
+    17.4
+   ],
+   [
+    "B32",
+    "B33",
+    100.8
+   ]
+  ]
+ },
+ "spikedet": {
+  "fs": 1000.0,
+  "notch_freqs": [
+   60.0,
+   120.0,
+   180.0
+  ],
+  "notch_q": 30.0,
+  "highpass": 1.0,
+  "wide_band": [
+   1.0,
+   80.0
+  ],
+  "hf_band": [
+   20.0,
+   70.0
+  ],
+  "lf_band": [
+   2.0,
+   8.0
+  ],
+  "filter_order": 4,
+  "scales_ms": [
+   10.0,
+   15.0,
+   22.0,
+   32.0,
+   46.0,
+   66.0
+  ],
+  "thresh_mad": 6.0,
+  "baseline_block_s": 60.0,
+  "max_amp_mad": 60.0,
+  "refractory_ms": 40.0,
+  "peak_refine_ms": 12.0,
+  "use_cycle_gate": true,
+  "cycle_win_ms": 150.0,
+  "cycle_rel_thresh": 0.5,
+  "max_cycles": 3.0,
+  "use_band_gate": true,
+  "band_edges": [
+   [
+    8.0,
+    16.0
+   ],
+   [
+    16.0,
+    32.0
+   ],
+   [
+    32.0,
+    64.0
+   ],
+   [
+    64.0,
+    100.0
+   ]
+  ],
+  "band_win_ms": 200.0,
+  "band_z": 2.0,
+  "min_bands": 3,
+  "n_baseline_windows": 500,
+  "use_lf_gate": true,
+  "lf_z": 2.0,
+  "lf_win_ms": 100.0,
+  "use_width_gate": true,
+  "min_halfwidth_ms": 10.0,
+  "max_halfwidth_ms": 80.0,
+  "use_coincidence_gate": true,
+  "coincidence_ms": 20.0,
+  "max_coincident_frac": 0.5,
+  "channel_block": 16,
+  "time_block_s": 300.0,
+  "overlap_s": 5.0,
+  "dtype": "float32",
+  "random_seed": 0
+ },
+ "n_candidates": 6063,
+ "n_accepted": 1103
+}

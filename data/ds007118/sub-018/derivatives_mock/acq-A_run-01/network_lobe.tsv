@@ -1,0 +1,7 @@
+source	target	weight_L2
+parietal/central	central	3.4383
+central	central/parietal	3.4235
+frontal	parietal	2.7260
+temporal	frontal	1.2711
+frontal/central	parietal	0.1407
+parietal/central	frontal	0.0064

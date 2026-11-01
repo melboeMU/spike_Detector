@@ -1,0 +1,47 @@
+{
+  "type": {
+    "Description": "Indicates the electrode type",
+    "Levels": {
+      "ECOG": "Electrode was a subdural grid or strip",
+      "SEEG": "Electrode was a depth electrode"
+    },
+    "MissingValues": [
+      "n/a"
+    ]
+  },
+  "notch": {
+    "Description": "Indicates whether a notch filter was applied. In this study, a notch filter was not applied to any channel"
+  },
+  "resection": {
+    "Description": "Indicates whether the electrode contact was located in the resected brain area",
+    "Levels": {
+      "resected": "Contact was within the resected area",
+      "preserved": "Contact was within the preserved (non-resected) area"
+    },
+    "MissingValues": [
+      "n/a"
+    ]
+  },
+  "hemisphere": {
+    "Description": "Indicates the location of the electrode contact. “L” denotes the left hemisphere, and “R” denotes the right hemisphere."
+  },
+  "lobe": {
+    "Description": "Indicates the location of the electrode contact.",
+    "Levels": {
+      "frontal": "The contact was located in the frontal lobe, excluding the precentral and paracentral gyri.",
+      "central": "The contact was located in the precentral, postcentral, or paracentral gyrus.",
+      "parietal": "The contact was located in the parietal lobe, excluding the postcentral and paracentral gyri.",
+      "occipital": "The contact was located in the occipital lobe.",
+      "temporal": "The contact was located in the temporal lobe.",
+      "insula": "The contact was located in the insular cortex."
+    }
+  },
+  "dataset": {
+    "Description": "Indicates whether the electrode contact was used in our study",
+    "Levels": {
+      "trained": "Electrode was trained to develop SOZ-prediction model (comprehensive HFA model) with XGBoost",
+      "unused": "Electrode was not used in our study",
+      "other": "Electrode was not used for developing SOZ-prediction model, but used for other analysis"
+    }
+  }
+}

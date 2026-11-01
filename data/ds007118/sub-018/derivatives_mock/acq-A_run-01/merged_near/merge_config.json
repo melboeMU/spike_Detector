@@ -1,0 +1,10 @@
+{
+ "recording": "sub-018_ses-01_task-sleep_acq-A_run-01",
+ "source": "..\\spikes.tsv",
+ "window_ms": 20.0,
+ "rule": "earliest spike in each window kept; window anchored on it; only channels within 15.6 mm (max neighbour distance)",
+ "max_mm": 15.642749135966094,
+ "n_in": 2078,
+ "n_out": 1788,
+ "git_commit": "cb0b41f"
+}

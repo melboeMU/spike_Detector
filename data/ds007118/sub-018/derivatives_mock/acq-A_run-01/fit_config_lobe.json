@@ -1,0 +1,20 @@
+{
+ "recording": "sub-018_ses-01_task-sleep_acq-A_run-01",
+ "arm": "lobe",
+ "tag": null,
+ "git_commit": "f144ac6",
+ "bin_s": 0.01953125,
+ "lags_self": 5,
+ "lags_cross": 5,
+ "criterion": "BIC",
+ "penalty": "grLasso",
+ "family": "poisson",
+ "nlambda": 100,
+ "edge_tol": 1e-08,
+ "n_nodes": 12,
+ "n_active": 11,
+ "predictors": "active nodes only (zero-event nodes dropped)",
+ "workers": 3,
+ "fit_seconds": 145.2,
+ "n_edges": 6
+}

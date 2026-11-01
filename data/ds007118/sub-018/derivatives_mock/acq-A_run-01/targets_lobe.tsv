@@ -1,0 +1,13 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+occipital	202	fitted	8	3.794	0
+parietal	163	fitted	5	0.000	2
+parietal/central	22	intercept-only	1	0.000	0
+frontal	385	fitted	14	3.239	2
+temporal	771	fitted	27	3.420	0
+central	73	fitted	2	0.000	1
+central/parietal	43	fitted	2	0.000	1
+frontal/central	42	intercept-only	1	0.000	0
+central/frontal	10	fit failed			0
+occipital/temporal	10	fit failed			0
+central/temporal	7	fit failed			0
+occipital/parietal	0	no events			0

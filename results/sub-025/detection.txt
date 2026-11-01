@@ -1,0 +1,29 @@
+recording: sub-025 acq-A run-01
+loaded 112 ch x 31.9 min at 1000 Hz, mains 60 Hz  (1.8s)
+bipolar: 64 pairs  (median contact spacing 10.8 mm; 39 non-adjacent jumps skipped, 8 artifact contacts excluded, no coordinates: [])
+  skipped jumps: [('A4', 'A5', 22.7), ('A5', 'A6', 18.4), ('A10', 'A11', 24.3), ('A16', 'A17', 37.3), ('A19', 'A20', 29.9), ('A21', 'A22', 19.5)] ...
+
+detection: 11953 candidates, 692 accepted  (23.3s)
+  rejected by: {'not_broadband': 10918, 'oscillatory_burst': 188, 'bad_halfwidth': 139, 'no_lf_component': 16}
+
+spike rate per bipolar channel, by clinical label of its contacts (spikes/min):
+  SOZ      n= 5  median   1.25  mean   1.30  max   2.60
+  spiking  n=48  median   0.13  mean   0.26  max   1.78
+  normal   n=11  median   0.16  mean   0.22  max   0.69
+  top 8: A8-A9(2.6,SOZ), A6-A7(2.2,SOZ), B52-B53(1.8,spiking), B18-B19(1.5,spiking), A7-A8(1.3,SOZ), B26-B27(1.1,spiking), B51-B52(1.0,spiking), B6-B7(0.9,spiking)
+
+CHANNEL arm: 64 nodes, 320 history parameters per target model, 98,100 bins
+  events/parameter: median 0.0, min 0.0, max 0.3
+  nodes below 10 events/parameter: 64 of 64   (P-09 floor is 10-20)
+
+LOBE (parcel) arm: 6 nodes, 30 history parameters per target model, 98,100 bins
+  events/parameter: median 0.6, min 0.0, max 9.5
+  nodes below 10 events/parameter: 6 of 6   (P-09 floor is 10-20)
+    frontal                     9.5 events/param   (306 spikes)
+    temporal                    9.0 events/param   (348 spikes)
+    central                     1.2 events/param   (35 spikes)
+    occipital                   0.0 events/param   (1 spikes)
+    occipital/temporal          0.0 events/param   (1 spikes)
+    temporal/parietal           0.0 events/param   (1 spikes)
+
+detections written to ..\..\data\ds007118\sub-025\derivatives_mock\acq-A_run-01

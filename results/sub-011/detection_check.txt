@@ -1,0 +1,6 @@
+sub-011 acq-A run-01: 66 min
+label    chans cand/ch/min accepted%  reasons (share of candidates)
+SOZ         20        0.88      6.3%  not_broadband 91%, bad_halfwidth 2%, oscillatory_burst 1%
+spiking     21        1.98      4.8%  not_broadband 93%, oscillatory_burst 2%, bad_halfwidth 1%
+normal      51        6.68      2.2%  not_broadband 96%, oscillatory_burst 2%, bad_halfwidth 0%, no_lf_component 0%
+median background amplitude (robust SD, uV): {'SOZ': 133.6, 'spiking': 109.7, 'normal': 99.2}

@@ -1,0 +1,18 @@
+recording: sub-018 acq-A run-01   window 20 ms   any channels
+spikes: 2078 -> 1381 events (697 co-detections removed, 34%)
+events seen on more than one channel: 490 of 1381
+same-channel duplicates inside the window (both phases of one spike, P-34): 1
+active channels: 79 -> 77
+distance from the kept channel to each dropped one (fsaverage mm): median 36, <= 25 mm: 40%, > 50 mm: 27%
+
+busiest channels, spikes before -> after:
+  A14-A15      276 ->   186
+  A13-A14      174 ->   107
+  A17-A18       88 ->    64
+  A60-A61       83 ->    55
+  B27-B28       81 ->    55
+  A49-A50       72 ->    41
+  B31-B32       70 ->    44
+  B23-B24       57 ->    40
+  B44-B45       56 ->    35
+  A61-A62       56 ->    45

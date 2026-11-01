@@ -1,0 +1,20 @@
+recording: sub-025 acq-A run-01   atlas: Desikan-Killiany (fsaverage aparc)
+check 1 - contact to nearest cortical surface vertex: median 0.0 mm, 90th percentile 0.0 mm, max 0.0 mm
+check 2 - atlas lobe matches the dataset's lobe label: 55/92 contacts (60%)
+note - 112/112 contacts lie on the opposite hemisphere's surface to their label (mirrored onto one side of fsaverage); region taken from the surface they lie on
+
+64 channels -> 12 parcels:
+  superiorfrontal-rh                18 channels
+  unknown-rh                        10 channels
+  rostralmiddlefrontal-rh            7 channels
+  fusiform-rh                        6 channels
+  entorhinal-rh                      5 channels
+  lingual-rh                         5 channels
+  inferiortemporal-rh                4 channels
+  pericalcarine-rh                   3 channels
+  parahippocampal-rh                 2 channels
+  lateraloccipital-rh                2 channels
+  middletemporal-rh                  1 channels
+  isthmuscingulate-rh                1 channels
+
+written ..\..\data\ds007118\sub-025\derivatives_mock\acq-A_run-01\parcels.tsv

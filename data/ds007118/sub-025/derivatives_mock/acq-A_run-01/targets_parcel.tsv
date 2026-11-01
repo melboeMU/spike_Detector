@@ -1,0 +1,13 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+fusiform-rh	22	fitted	2	0.000	1
+entorhinal-rh	84	fitted	4	3.412	1
+unknown-rh	143	fitted	5	3.806	0
+parahippocampal-rh	29	intercept-only	1	0.000	0
+lingual-rh	37	fitted	7	6.241	0
+superiorfrontal-rh	260	fitted	16	3.291	0
+rostralmiddlefrontal-rh	69	intercept-only	1	0.000	0
+inferiortemporal-rh	9	fit failed			0
+lateraloccipital-rh	1	fit failed			0
+pericalcarine-rh	2	fit failed			0
+isthmuscingulate-rh	1	fit failed			0
+middletemporal-rh	0	no events			0

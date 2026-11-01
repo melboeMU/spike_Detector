@@ -1,0 +1,89 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+A6-A7	17	fitted	2	0.000	1
+A7-A8	22	intercept-only	1	0.000	0
+A11-A12	15	intercept-only	1	0.000	0
+A13-A14	174	fitted	3	0.000	1
+A14-A15	276	fitted	9	0.000	1
+A16-A17	51	fitted	3	0.000	1
+A17-A18	88	fitted	2	0.000	1
+A21-A22	17	intercept-only	1	0.000	0
+A22-A23	52	intercept-only	1	0.000	0
+A29-A30	24	fitted	2	0.000	1
+A37-A38	16	intercept-only	1	0.000	0
+A38-A39	46	fitted	2	0.000	1
+A40-A41	43	intercept-only	1	0.000	0
+A41-A42	31	intercept-only	1	0.000	0
+A49-A50	72	fitted	2	0.000	1
+A51-A52	24	fitted	2	0.000	1
+A54-A55	18	fitted	2	0.000	1
+A55-A56	28	intercept-only	1	0.000	0
+A56-A57	36	fitted	2	4.288	0
+A59-A60	18	intercept-only	1	0.000	0
+A60-A61	83	fitted	2	0.000	1
+A61-A62	56	intercept-only	1	0.000	0
+B11-B12	30	fitted	2	0.000	1
+B14-B15	21	fitted	2	0.000	1
+B15-B16	30	intercept-only	1	0.000	0
+B18-B19	14	intercept-only	1	0.000	0
+B23-B24	57	fitted	2	0.000	1
+B27-B28	81	intercept-only	1	0.000	0
+B30-B31	25	intercept-only	1	0.000	0
+B31-B32	70	fitted	2	0.000	2
+B35-B36	23	intercept-only	1	0.000	0
+B36-B37	23	intercept-only	1	0.000	0
+B41-B42	23	intercept-only	1	0.000	0
+B42-B43	19	intercept-only	1	0.000	0
+B43-B44	25	intercept-only	1	0.000	0
+B44-B45	56	fitted	3	0.000	2
+B45-B46	19	intercept-only	1	0.000	0
+B49-B50	23	intercept-only	1	0.000	0
+B50-B51	28	intercept-only	1	0.000	0
+B52-B53	18	intercept-only	1	0.000	0
+B57-B58	32	intercept-only	1	0.000	0
+B58-B59	16	intercept-only	1	0.000	0
+B59-B60	22	intercept-only	1	0.000	0
+B60-B61	27	intercept-only	1	0.000	0
+A4-A5	3	fit failed			0
+A5-A6	9	fit failed			0
+A8-A9	10	fit failed			0
+A9-A10	11	fit failed			0
+A15-A16	3	fit failed			0
+A19-A20	5	fit failed			0
+A20-A21	10	fit failed			0
+A27-A28	2	fit failed			0
+A28-A29	5	fit failed			0
+A31-A32	11	fit failed			0
+A35-A36	1	fit failed			0
+A44-A45	1	fit failed			0
+A45-A46	4	fit failed			0
+A47-A48	2	fit failed			0
+A50-A51	3	fit failed			0
+A57-A58	5	fit failed			0
+B1-B2	4	fit failed			0
+B4-B5	7	fit failed			0
+B6-B7	9	fit failed			0
+B7-B8	3	fit failed			0
+B9-B10	10	fit failed			0
+B12-B13	10	fit failed			0
+B13-B14	1	fit failed			0
+B17-B18	8	fit failed			0
+B20-B21	3	fit failed			0
+B21-B22	11	fit failed			0
+B29-B30	8	fit failed			0
+B33-B34	11	fit failed			0
+B38-B39	1	fit failed			0
+B46-B47	1	fit failed			0
+B47-B48	3	fit failed			0
+B51-B52	8	fit failed			0
+B54-B55	2	fit failed			0
+B55-B56	1	fit failed			0
+B62-B63	3	fit failed			0
+A1-A2	0	no events			0
+A2-A3	0	no events			0
+A3-A4	0	no events			0
+A26-A27	0	no events			0
+A33-A34	0	no events			0
+A34-A35	0	no events			0
+A36-A37	0	no events			0
+B5-B6	0	no events			0
+B63-B64	0	no events			0

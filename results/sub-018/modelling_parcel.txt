@@ -1,0 +1,67 @@
+recording: sub-018 acq-A run-01   duration 2239 s   workers 3
+
+=== PARCEL arm: 23 nodes (21 with events), 105 history columns, 114,637 bins ===
+targets fitted: 21 of 23  (skipped 2 with zero events)
+glm_input_parcel_node003.mat                   events=   11  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node004.mat                   events=   17  BIC idx=  2/100  23.7s
+glm_input_parcel_node005.mat                   events=   22  BIC idx=  1/100  24.2s  <-- ENDPOINT
+glm_input_parcel_node006.mat                   events=  110  BIC idx=  3/100  44.5s
+glm_input_parcel_node007.mat                   events=   98  BIC idx=  1/100  49.3s  <-- ENDPOINT
+glm_input_parcel_node008.mat                   events=  375  BIC idx=  7/100  21.2s
+glm_input_parcel_node009.mat                   events=  136  BIC idx=  7/100  14.1s
+glm_input_parcel_node010.mat                   events=    5  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node011.mat                   events=   24  BIC idx=  1/100  21.8s  <-- ENDPOINT
+glm_input_parcel_node012.mat                   events=  151  BIC idx= 12/100  30.4s
+glm_input_parcel_node013.mat                   events=  181  BIC idx=  6/100  27.6s
+glm_input_parcel_node014.mat                   events=    5  FAILED: Unpenalized portion of model is already saturated; exiting...
+glm_input_parcel_node015.mat                   events=   15  BIC idx=  1/100  21.6s  <-- ENDPOINT
+glm_input_parcel_node016.mat                   events=  116  BIC idx=  2/100  13.9s
+glm_input_parcel_node017.mat                   events=   18  BIC idx=  1/100  18.8s  <-- ENDPOINT
+glm_input_parcel_node018.mat                   events=   77  BIC idx=  2/100  27.0s
+glm_input_parcel_node019.mat                   events=   65  BIC idx=  2/100  37.3s
+glm_input_parcel_node020.mat                   events=  138  BIC idx=  8/100  43.5s
+glm_input_parcel_node021.mat                   events=   22  BIC idx=  1/100  21.8s  <-- ENDPOINT
+glm_input_parcel_node022.mat                   events=  281  BIC idx=  5/100  32.0s
+glm_input_parcel_node023.mat                   events=   11  FAILED: Unpenalized portion of model is already saturated; exiting...
+R fitting: 187s
+
+target                 events     idx   self in-edges
+posteriorcingulate-lh      17   2/100   0.00        1
+paracentral-lh             22   1/100   0.00        0  intercept-only
+superiorfrontal-lh        110   3/100   0.00        1
+fusiform-lh                98   1/100   0.00        0  intercept-only
+entorhinal-lh             375   7/100   1.61        2
+temporalpole-lh           136   7/100   0.00        1
+inferiortemporal-lh        24   1/100   0.00        0  intercept-only
+middletemporal-lh         151  12/100   0.00        3
+lateraloccipital-lh       181   6/100   3.69        0
+parstriangularis-lh        15   1/100   0.00        0  intercept-only
+superiortemporal-lh       116   2/100   0.00        1
+inferiorparietal-lh        18   1/100   0.00        0  intercept-only
+postcentral-lh             77   2/100   0.00        1
+precentral-lh              65   2/100   0.00        2
+supramarginal-lh          138   8/100   0.00        3
+parsopercularis-lh         22   1/100   0.00        0  intercept-only
+caudalmiddlefrontal-lh    281   5/100   2.99        1
+isthmuscingulate-lh        11  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+lingual-lh                  5  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+lateralorbitofrontal-lh      5  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+rostralmiddlefrontal-lh     11  FIT FAILED: Unpenalized portion of model is already saturated; exiting...
+
+edges selected: 16   intercept-only targets: 6 of 17   fits failed: 4   skipped (zero events): 2
+   fusiform-lh        -> middletemporal-lh   4.476
+   paracentral-lh     -> precentral-lh       3.649
+   entorhinal-lh      -> temporalpole-lh     3.551
+   superiorfrontal-lh -> posteriorcingulate-lh  3.429
+   precentral-lh      -> postcentral-lh      3.230
+   precentral-lh      -> supramarginal-lh    2.975
+   caudalmiddlefrontal-lh -> supramarginal-lh    2.934
+   fusiform-lh        -> entorhinal-lh       2.841
+   caudalmiddlefrontal-lh -> superiorfrontal-lh  2.816
+   temporalpole-lh    -> superiortemporal-lh  2.557
+   entorhinal-lh      -> middletemporal-lh   2.531
+   temporalpole-lh    -> entorhinal-lh       2.354
+   caudalmiddlefrontal-lh -> precentral-lh       0.186
+   superiorfrontal-lh -> caudalmiddlefrontal-lh  0.158
+   inferiortemporal-lh -> middletemporal-lh   0.004
+   rostralmiddlefrontal-lh -> supramarginal-lh    0.001

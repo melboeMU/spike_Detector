@@ -1,0 +1,65 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+A6-A7	69	fitted	2	0.000	1
+A7-A8	40	intercept-only	1	0.000	0
+A8-A9	83	fitted	3	4.578	1
+A11-A12	11	intercept-only	1	0.000	0
+B6-B7	29	intercept-only	1	0.000	0
+B7-B8	16	intercept-only	1	0.000	0
+B13-B14	13	fitted	2	0.000	1
+B15-B16	12	intercept-only	1	0.000	0
+B18-B19	48	intercept-only	1	0.000	0
+B25-B26	26	intercept-only	1	0.000	0
+B26-B27	34	fitted	2	0.000	1
+B27-B28	15	intercept-only	1	0.000	0
+B35-B36	10	intercept-only	1	0.000	0
+B44-B45	16	intercept-only	1	0.000	0
+B46-B47	10	intercept-only	1	0.000	0
+B49-B50	10	intercept-only	1	0.000	0
+B50-B51	15	intercept-only	1	0.000	0
+B51-B52	31	intercept-only	1	0.000	0
+B52-B53	57	intercept-only	1	0.000	0
+B61-B62	22	intercept-only	1	0.000	0
+A1-A2	3	fit failed			0
+A2-A3	7	fit failed			0
+A3-A4	6	fit failed			0
+A12-A13	5	fit failed			0
+A14-A15	1	fit failed			0
+A15-A16	1	fit failed			0
+A18-A19	8	fit failed			0
+A28-A29	1	fit failed			0
+A29-A30	4	fit failed			0
+A30-A31	6	fit failed			0
+A33-A34	1	fit failed			0
+A36-A37	2	fit failed			0
+A39-A40	1	fit failed			0
+A44-A45	3	fit failed			0
+A45-A46	8	fit failed			0
+B2-B3	4	fit failed			0
+B3-B4	4	fit failed			0
+B10-B11	7	fit failed			0
+B11-B12	2	fit failed			0
+B12-B13	4	fit failed			0
+B20-B21	1	fit failed			0
+B21-B22	6	fit failed			0
+B22-B23	1	fit failed			0
+B30-B31	3	fit failed			0
+B31-B32	2	fit failed			0
+B33-B34	3	fit failed			0
+B37-B38	7	fit failed			0
+B39-B40	3	fit failed			0
+B41-B42	5	fit failed			0
+B42-B43	2	fit failed			0
+B43-B44	6	fit failed			0
+B54-B55	2	fit failed			0
+B57-B58	6	fit failed			0
+A13-A14	0	no events			0
+A25-A26	0	no events			0
+A26-A27	0	no events			0
+A27-A28	0	no events			0
+A31-A32	0	no events			0
+A35-A36	0	no events			0
+A37-A38	0	no events			0
+A41-A42	0	no events			0
+A43-A44	0	no events			0
+A47-A48	0	no events			0
+B4-B5	0	no events			0

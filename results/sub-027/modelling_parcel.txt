@@ -1,0 +1,27 @@
+recording: sub-027 acq-B run-01   duration 2047 s   workers 3
+
+=== PARCEL arm: 8 nodes (6 with events), 30 history columns, 104,807 bins ===
+targets fitted: 6 of 8  (skipped 2 with zero events)
+glm_input_parcel_node001.mat                   events=  103  BIC idx=  5/100  16.0s
+glm_input_parcel_node002.mat                   events=  167  BIC idx= 11/100  12.8s
+glm_input_parcel_node003.mat                   events=  374  BIC idx= 20/100  12.1s
+glm_input_parcel_node004.mat                   events=  284  BIC idx= 13/100  12.0s
+glm_input_parcel_node005.mat                   events=  118  BIC idx=  4/100  13.0s
+glm_input_parcel_node008.mat                   events=   23  BIC idx=  1/100  16.6s  <-- ENDPOINT
+R fitting: 30s
+
+target                 events     idx   self in-edges
+fusiform-lh               103   5/100   3.97        1
+entorhinal-lh             167  11/100   4.09        2
+temporalpole-lh           374  20/100   3.09        1
+inferiortemporal-lh       284  13/100   0.00        1
+middletemporal-lh         118   4/100   0.00        1
+lateralorbitofrontal-lh     23   1/100   0.00        0  intercept-only
+
+edges selected: 6   intercept-only targets: 1 of 6   fits failed: 0   skipped (zero events): 2
+   temporalpole-lh    -> inferiortemporal-lh  4.044
+   fusiform-lh        -> entorhinal-lh       2.625
+   temporalpole-lh    -> middletemporal-lh   2.539
+   inferiortemporal-lh -> temporalpole-lh     2.226
+   inferiortemporal-lh -> entorhinal-lh       0.000
+   inferiortemporal-lh -> fusiform-lh         0.000

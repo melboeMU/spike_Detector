@@ -1,0 +1,37 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	notch	resection	status_description	hemisphere	lobe	dataset
+B1	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B2	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B3	ECOG	µV	0.08	300	1000	not applied	resected	artifact	L	temporal	unused
+B4	ECOG	µV	0.08	300	1000	not applied	resected	seizure onset zone	L	temporal	trained
+B5	ECOG	µV	0.08	300	1000	not applied	resected	seizure onset zone	L	temporal	trained
+B6	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B7	ECOG	µV	0.08	300	1000	not applied	resected	artifact	L	temporal	unused
+B8	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B9	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B10	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B11	ECOG	µV	0.08	300	1000	not applied	resected	seizure onset zone	L	temporal	trained
+B12	ECOG	µV	0.08	300	1000	not applied	resected	seizure onset zone	L	temporal	trained
+B13	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B14	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B15	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B16	ECOG	µV	0.08	300	1000	not applied	resected	artifact	n/a	n/a	unused
+B17	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B18	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B19	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B20	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B21	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B22	ECOG	µV	0.08	300	1000	not applied	resected	normal	L	temporal	trained
+B23	ECOG	µV	0.08	300	1000	not applied	resected	spiking	L	temporal	other
+B24	ECOG	µV	0.08	300	1000	not applied	resected	normal	L	temporal	trained
+B25	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B26	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B27	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B28	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B29	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B30	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	occipital	trained
+B31	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B32	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	temporal	trained
+B33	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	frontal	trained
+B34	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	frontal	trained
+B35	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	frontal	trained
+B36	ECOG	µV	0.08	300	1000	not applied	preserved	normal	L	frontal	trained

@@ -1,0 +1,35 @@
+recording: sub-018 acq-A run-01
+loaded 128 ch x 37.3 min at 1000 Hz, mains 60 Hz  (2.3s)
+bipolar: 88 pairs  (median contact spacing 12.3 mm; 37 non-adjacent jumps skipped, 2 artifact contacts excluded, no coordinates: [])
+  skipped jumps: [('A10', 'A11', 98.7), ('A12', 'A13', 24.7), ('A18', 'A19', 88.9), ('A23', 'A24', 26.3), ('A24', 'A25', 85.2), ('A25', 'A26', 27.7)] ...
+
+detection: 26376 candidates, 2078 accepted  (39.4s)
+  rejected by: {'not_broadband': 22747, 'oscillatory_burst': 442, 'bad_halfwidth': 1105, 'no_lf_component': 4}
+
+spike rate per bipolar channel, by clinical label of its contacts (spikes/min):
+  SOZ      n=16  median   0.70  mean   1.42  max   7.40
+  spiking  n=67  median   0.38  mean   0.49  max   2.22
+  normal   n= 5  median   0.00  mean   0.02  max   0.08
+  top 8: A14-A15(7.4,SOZ), A13-A14(4.7,SOZ), A17-A18(2.4,SOZ), A60-A61(2.2,spiking), B27-B28(2.2,spiking), A49-A50(1.9,SOZ), B31-B32(1.9,spiking), B23-B24(1.5,spiking)
+
+CHANNEL arm: 88 nodes, 440 history parameters per target model, 114,637 bins
+  events/parameter: median 0.0, min 0.0, max 0.6
+  nodes below 10 events/parameter: 88 of 88   (P-09 floor is 10-20)
+
+LOBE (parcel) arm: 12 nodes, 60 history parameters per target model, 114,637 bins
+  events/parameter: median 0.7, min 0.0, max 12.8
+  nodes below 10 events/parameter: 11 of 12   (P-09 floor is 10-20)
+    temporal                   12.8 events/param   (990 spikes)
+    frontal                     6.4 events/param   (466 spikes)
+    occipital                   3.4 events/param   (225 spikes)
+    parietal                    2.7 events/param   (186 spikes)
+    central                     1.2 events/param   (74 spikes)
+    central/parietal            0.7 events/param   (46 spikes)
+    frontal/central             0.7 events/param   (42 spikes)
+    parietal/central            0.4 events/param   (22 spikes)
+    central/frontal             0.2 events/param   (10 spikes)
+    occipital/temporal          0.2 events/param   (10 spikes)
+    central/temporal            0.1 events/param   (7 spikes)
+    occipital/parietal          0.0 events/param   (0 spikes)
+
+detections written to ..\..\data\ds007118\sub-018\derivatives_mock\acq-A_run-01

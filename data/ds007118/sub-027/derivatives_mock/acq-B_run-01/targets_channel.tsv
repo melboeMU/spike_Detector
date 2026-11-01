@@ -1,0 +1,23 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+B1-B2	33	fitted	2	4.517	0
+B4-B5	99	fitted	7	5.724	0
+B5-B6	75	intercept-only	1	0.000	0
+B8-B9	166	fitted	13	0.000	2
+B9-B10	220	fitted	2	0.000	1
+B11-B12	53	fitted	2	3.308	0
+B12-B13	136	fitted	12	0.000	1
+B13-B14	126	fitted	21	0.000	1
+B14-B15	68	fitted	2	0.000	1
+B19-B20	14	intercept-only	1	0.000	0
+B21-B22	33	intercept-only	1	0.000	0
+B23-B24	52	intercept-only	1	0.000	0
+B18-B19	5	fit failed			0
+B33-B34	10	fit failed			0
+B34-B35	6	fit failed			0
+B35-B36	7	fit failed			0
+B17-B18	0	no events			0
+B25-B26	0	no events			0
+B26-B27	0	no events			0
+B27-B28	0	no events			0
+B28-B29	0	no events			0
+B29-B30	0	no events			0

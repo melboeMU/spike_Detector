@@ -1,0 +1,9 @@
+node	events	outcome	best_idx	self_weight	incoming_edges
+fusiform-lh	103	fitted	5	3.967	1
+entorhinal-lh	167	fitted	11	4.085	2
+temporalpole-lh	374	fitted	20	3.086	1
+inferiortemporal-lh	284	fitted	13	0.000	1
+middletemporal-lh	118	fitted	4	0.000	1
+lateralorbitofrontal-lh	23	intercept-only	1	0.000	0
+lingual-lh	0	no events			0
+lateraloccipital-lh	0	no events			0
